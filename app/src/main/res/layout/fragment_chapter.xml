@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:text="You're in"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chapter"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo_black"
+            android:text="EASY "
+            android:textAlignment="textEnd"
+            android:textColor="#1A4B1D"
+            android:textSize="40sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/chapter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:text="CHAPTER1"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp">
+
+        <Button
+            android:id="@+id/btn_chapter_ph1"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="PHASE 1"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_ph2"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="PHASE 2"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            />
+
+        <Button
+            android:id="@+id/btn_chapter_ph3"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="PHASE 3"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF9800"
+        android:text="SELECT ALL PHASE BELOW TO COMPLETE CHAPTER 1, AND UNLOCK ANOTHER CHAPTER"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
